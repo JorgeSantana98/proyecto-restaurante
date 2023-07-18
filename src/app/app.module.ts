@@ -9,6 +9,8 @@ import { PiePaginaComponent } from './components/cliente/pie-pagina/pie-pagina.c
 import { AboutComponent } from './components/cliente/about/about.component';
 import { ContenidoInicioComponent } from './components/cliente/contenido-inicio/contenido-inicio.component';
 import { MenuComponent } from './components/cliente/menu/menu.component';
+import { ContactoComponent } from './components/cliente/contacto/contacto.component';
+import { ReservacionComponent } from './components/cliente/reservacion/reservacion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MenuComponent } from './components/cliente/menu/menu.component';
     PiePaginaComponent,
     AboutComponent,
     ContenidoInicioComponent,
-    MenuComponent
+    MenuComponent,
+    ContactoComponent,
+    ReservacionComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,9 @@ import { ContenidoInicioComponent } from './components/cliente/contenido-inicio/
 import { MenuComponent } from './components/cliente/menu/menu.component';
 import { ContactoComponent } from './components/cliente/contacto/contacto.component';
 import { ReservacionComponent } from './components/cliente/reservacion/reservacion.component';
+import { BarraLateralComponent } from './components/Administrador/barra-lateral/barra-lateral.component';
+import { BarraSuperiorComponent } from './components/Administrador/barra-superior/barra-superior.component';
+import { AppAdministradorComponent } from './components/Administrador/app-administrador/app-administrador.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ReservacionComponent } from './components/cliente/reservacion/reservaci
     ContenidoInicioComponent,
     MenuComponent,
     ContactoComponent,
-    ReservacionComponent
+    ReservacionComponent,
+    BarraLateralComponent,
+    BarraSuperiorComponent,
+    AppAdministradorComponent
   ],
   imports: [
     BrowserModule,
